@@ -40,10 +40,12 @@ module.exports = {
             'scss': 'vue-style-loader!css-loader!sass-loader',
             'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax',
             'js': 'babel-loader?presets[]=env'
+
           }
         }
       }
-    ]
+    ],
+
   },
   resolve: {
     alias: {
